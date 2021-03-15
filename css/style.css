@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #9a8194;
+    
+    
+background: rgb(130,38,80);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin-top: 2.6rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.skillBody {
+     width: 70%; 
+    text-align: left;
+    margin: 100px auto 100px auto;
+}
+
+.mainImage {
+    width: 50%;
+    height: 50%;
+    border-radius: 60%;
+    
+}
+
+/* bottom container */
+
+.bottomContainer, .skillBlock, .contactBlock {
+    padding: 1.875rem;
+}
+
+.bottomContainer table {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.bottomContainer a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px;
+    color: white;
+}
+
+.bottomContainer h2 {
+    margin-top: 0;
+}
+
+.contactImg {
+    width: 10.6rem;
+    height: 10.6rem;
+    border-radius: 50%;
+}
+
+.projectImg {   
+    padding: 10px;
+} 
+.cv-download
+{
+    margin: 2%;
+}
+
+
+.contactBlock h3 {
+    margin-bottom: 3rem;
+}
+
+.projectBlock h2 {
+    margin-top: 5rem;
+}
+
+/* .contactBtn {
+    background-color: rgb(216, 135, 176);
+    display: block;
+    height: 3.5rem;
+    width: 10rem;
+    color: #50063a;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 50%; 
+    margin: 0 auto;
+    padding-top: 1.2rem;
+} */
+
+.aboutBlock {
+     
+    color: white;
+    margin: 0 auto;
+    /* text-align: justify; */
+    line-height: 1.5;
+    
+}
+.abt-description
+{
+    text-align: justify;
+}
+.skillBlock {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.btnBlock {
+    display: flex;
+}
+
+
+.nav-link {
+    color: rgb(192, 174, 182)!important;
+}
+
+.btnBlock{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn{
+    /* background-color:  #b34180 !important; */
+    color:#9a8194!important;
+   
+}
+.btn:hover{
+    background-color:  #b34180 !important;
+    
+}
+
+
+.progress
+{
+   
+    background-color:#440a67;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+    height: 1.5rem;
+   
+}
+.skill-bar
+{
+    background-color: #be5683;
+
+}
+
+.project:hover
+{
+    cursor: pointer;
+}
+
+@media(max-width:1020px)
+{
+    h1
+    {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+        
+    }
+    
+}
+
+@media(max-width:400px)
+{
+    
+    h3 {
+        font-size: 1rem;
+        
+    }
+
+    .skillBody {
+        width: 100%;
+        text-align: left;
+        margin: 100px auto 100px auto;
+    }
+    .btnBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomContainer, .skillBlock, .contactBlock {
+        /* background-color: #822659; */
+        padding: 1.2rem;
+    }
+
+}
